@@ -155,3 +155,4 @@ plt.gca(aspect=1,xlim=(X[:,0].min(),X[:,0].max()),ylim=(X[:,1].min(),X[:,1].max(
 plt.contourf(mx,my,mz,cmap='coolwarm',alpha=0.2)
 plt.scatter(X[:,0],X[:,1],50,c=z,edgecolor='k',cmap='coolwarm')
 plt.show()
+
